@@ -1,0 +1,33 @@
+{
+    "name": "wix",
+    "description": "Easy way to Wix apps development using nodeJS",
+    "version": "0.1.0",
+    "scripts": {
+        "test": "mocha -R spec"
+    },
+    "license": "MIT",
+    "tags": [
+        "wix"
+    ],
+    "author": {
+        "name": "Ran Mizrahi",
+        "email": "ranm@codeoasis.com"
+    },
+    "dependencies": {
+        "q": "~0.9.3",
+        "underscore": "~1.4.4"
+    },
+    "devDependencies": {
+        "mocha": "~1.9.0",
+        "chai": "~1.6.1",
+        "sinon": "~1.7.2",
+        "rewire": "~1.1.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ranm8/wix.git"
+    },
+    "engines": {
+        "node": "~0.10.x"
+    }
+}
