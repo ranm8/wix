@@ -1,6 +1,6 @@
 {
     "name": "wix",
-    "description": "Easy way to Wix apps development using nodeJS",
+    "description": "Easy way to develop Wix.com apps using nodeJS",
     "version": "0.1.0",
     "scripts": {
         "test": "mocha -R spec"
@@ -12,10 +12,6 @@
     "author": {
         "name": "Ran Mizrahi",
         "email": "ranm@codeoasis.com"
-    },
-    "dependencies": {
-        "q": "~0.9.3",
-        "underscore": "~1.4.4"
     },
     "devDependencies": {
         "mocha": "~1.9.0",
