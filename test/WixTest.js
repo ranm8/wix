@@ -45,7 +45,7 @@ var mocha = require('mocha'),
             });
         });
 
-        describe('#parse', function() {
+        describe('#parse()', function() {
             it('should throw an error since instance was not given', function() {
                 expect(function() {
                     wix.parse();
