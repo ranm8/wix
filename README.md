@@ -13,6 +13,10 @@ var wix = require('wix');
 var instance = wix.parse(instace);
 ``` 
 
+## Installation
+
+	$ npm install wix
+
 ## API Reference
 
 ###  secret(string: wixSecretKey) : string
