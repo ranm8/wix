@@ -1,4 +1,4 @@
-# wix
+# wix [![Build Status](https://travis-ci.org/ranm8/wix.png?branch=master)](https://travis-ci.org/ranm8/wix)
 
 NodeJS SDK for development of web apps for the [Wix.com](http://www.wix.com) App Market.
 
