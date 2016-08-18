@@ -19,7 +19,7 @@ var instance = wix.parse(instace);
 
 ## API Reference
 
-###  secret(string: wixSecretKey) : string
+###  secret(wixSecretKey: string) : string
 Getter/setter for the Wix's secret key.
 
 ```javascript
@@ -27,7 +27,7 @@ wix.secret('my-secret-key'); // Sets the Wix secret key
 var secret = wix.secret() // Getter for the secret property, returns undefined if secret key has never been set before
 ```
 
-### parse(string: instance) : object|null
+### parse(instance: string) : object|null
 Parses given Wix's signed instance string. Note, this will return an object if parsed successfully or null if given instance is invalid.
 If secret key will not be set before parsing, an exception will be thrown.
 
