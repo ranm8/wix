@@ -5,7 +5,7 @@ var mocha = require('mocha'),
     sinon = require('sinon'),
     expect = require('chai').expect,
     rewire = require('rewire'),
-    wix = rewire('../lib/Wix.js');
+    wix = rewire('../lib/wix-lib.js');
 
 (function(global, undefined) {
     'use strict';

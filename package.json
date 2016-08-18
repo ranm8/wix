@@ -3,7 +3,7 @@
     "description": "NodeJS SDK for development of web apps for the Wix.com App Market",
     "version": "0.1.0",
     "scripts": {
-        "test": "mocha -R spec"
+        "test": "mocha -R spec specs/*.js"
     },
     "license": "MIT",
     "tags": [
